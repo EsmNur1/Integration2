@@ -23,3 +23,14 @@ Lade einen weiteren Mitschüler ein, einen Pull-Request (Feature: Quadrierung ei
 Lade einen weiteren Mitschüler ein, einen Pull-Request (Feature: Sinus und Cosinus einer Zahl berechnen) auf dein Repo zu machen. Akzeptiere den PR nur, wenn es dafür je einen Test gibt, alle Tests erfolgreich sind und die Versionsnummer erhöht wurde. Schreibe Änderungswünsche im Pull-Request-Review.
 
 Erstelle eine weitere Operation selbst, die eine natürliche Zahl in eine Binärzahl umwandelt (mit Test und Versionsnummer)
+
+# Testing and CI/CD Demo!
+
+This repository is a demo of how to use GitHub Actions to run tests and build a Java project!
+
+[![Java CI](https://github.com/EsmNur1/Integration2
+/actions/workflows/ci.yml/badge.svg)](https://github.com/EsmNur1/Integration2
+/actions/workflows/ci.yml)
+
+
+Hier ist eine neue Dokumentation!
