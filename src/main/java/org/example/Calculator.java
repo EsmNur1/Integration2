@@ -19,5 +19,10 @@ public class Calculator {
         return a * b;
     }
 
-
+    public static double calculateSquareRoot(double number) {
+        if (number < 0) {
+            throw new IllegalArgumentException("Number must be non-negative");
+        }
+        return Math.sqrt(number);
+    }
 }

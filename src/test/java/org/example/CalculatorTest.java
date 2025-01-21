@@ -50,7 +50,21 @@ class CalculatorTest {
         assertNotEquals(12, calculator.multiply(3,3));
     }
 
+    @Test
+    void calculateSquareRoot_PositiveNumber() {
+        assertEquals(4.0, calculator.calculateSquareRoot(16.0), 0.0001, "The square root of 16 should be 4");
+    }
 
+    @Test
+    void calculateSquareRoot_Zero() {
+        assertEquals(0.0, calculator.calculateSquareRoot(0.0), 0.0001, "The square root of 0 should be 0");
+    }
+
+    @Test
+    void calculateSquareRoot_NegativeNumber() {
+        assertThrows(IllegalArgumentException.class, () -> calculator.calculateSquareRoot(-1.0),
+                "Calculating the square root of a negative number should throw an exception");
+    }
 
 
 }
