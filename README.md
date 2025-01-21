@@ -28,9 +28,6 @@ Erstelle eine weitere Operation selbst, die eine natürliche Zahl in eine Binär
 
 This repository is a demo of how to use GitHub Actions to run tests and build a Java project!
 
-[![Java CI](https://github.com/EsmNur1/Integration2
-/actions/workflows/ci.yml/badge.svg)](https://github.com/EsmNur1/Integration2
-/actions/workflows/ci.yml)
-
+[![Java CI](https://github.com/EsmNur1/Integration2/actions/workflows/ci.yml/badge.svg)](https://github.com/EsmNur1/Integration2/actions/workflows/ci.yml)
 
 Hier ist eine neue Dokumentation!
