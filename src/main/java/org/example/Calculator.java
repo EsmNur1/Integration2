@@ -25,4 +25,7 @@ public class Calculator {
         }
         return Math.sqrt(number);
     }
+    public int square(int number) {
+        return number * number;
+    }
 }
