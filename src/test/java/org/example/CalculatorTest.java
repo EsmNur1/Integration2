@@ -65,6 +65,12 @@ class CalculatorTest {
         assertThrows(IllegalArgumentException.class, () -> calculator.calculateSquareRoot(-1.0),
                 "Calculating the square root of a negative number should throw an exception");
     }
+    @Test
+    void testSquare() {
+        assertEquals(16, calculator.square(4));
+        assertEquals(0, calculator.square(0));
+        assertEquals(1, calculator.square(1));
+    }
 
 
 }
